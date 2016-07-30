@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE07F524-C446-458F-B177-8F4F5AB557A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExtruderManagementSystem_UI</RootNamespace>
+    <AssemblyName>ExtruderManagementSystem_UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\FormAdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormAdminMenu.Designer.cs">
+      <DependentUpon>FormAdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_LotAssuranceTreadBack.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_LotAssuranceTreadBack.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_LotAssuranceTreadFront.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_LotAssuranceTreadFront.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Extruder\FormOrderTreadBelakang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extruder\FormOrderTreadBelakang.Designer.cs">
+      <DependentUpon>FormOrderTreadBelakang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Extruder\FormSpecDanLotAssuraceTreadBelakang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extruder\FormSpecDanLotAssuraceTreadBelakang.Designer.cs">
+      <DependentUpon>FormSpecDanLotAssuraceTreadBelakang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Extruder\FormSpecDanLotAssuraceTreadDepan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extruder\FormSpecDanLotAssuraceTreadDepan.Designer.cs">
+      <DependentUpon>FormSpecDanLotAssuraceTreadDepan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Extruder\FormStockTread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extruder\FormStockTread.Designer.cs">
+      <DependentUpon>FormStockTread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Extruder\FormOrderTreadDepan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extruder\FormOrderTreadDepan.Designer.cs">
+      <DependentUpon>FormOrderTreadDepan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPIC\FormDetailOrderTread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PPIC\FormDetailOrderTread.Designer.cs">
+      <DependentUpon>FormDetailOrderTread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPIC\FormPPICMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PPIC\FormPPICMenu.Designer.cs">
+      <DependentUpon>FormPPICMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\FormReportGaugeProfileTread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FormReportGaugeProfileTread.Designer.cs">
+      <DependentUpon>FormReportGaugeProfileTread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FormReportSpeedScrewTread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FormReportSpeedScrewTread.Designer.cs">
+      <DependentUpon>FormReportSpeedScrewTread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FormReportUsedCoumpoundTread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FormReportUsedCoumpoundTread.Designer.cs">
+      <DependentUpon>FormReportUsedCoumpoundTread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Spec System\FormDetailSpecTread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spec System\FormDetailSpecTread.Designer.cs">
+      <DependentUpon>FormDetailSpecTread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Spec System\FormSpecSystemMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spec System\FormSpecSystemMenu.Designer.cs">
+      <DependentUpon>FormSpecSystemMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Spec System\FormSpecTread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spec System\FormSpecTread.Designer.cs">
+      <DependentUpon>FormSpecTread.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\FormAdminMenu.resx">
+      <DependentUpon>FormAdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extruder\FormOrderTreadBelakang.resx">
+      <DependentUpon>FormOrderTreadBelakang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extruder\FormSpecDanLotAssuraceTreadBelakang.resx">
+      <DependentUpon>FormSpecDanLotAssuraceTreadBelakang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extruder\FormSpecDanLotAssuraceTreadDepan.resx">
+      <DependentUpon>FormSpecDanLotAssuraceTreadDepan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extruder\FormStockTread.resx">
+      <DependentUpon>FormStockTread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extruder\FormOrderTreadDepan.resx">
+      <DependentUpon>FormOrderTreadDepan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPIC\FormDetailOrderTread.resx">
+      <DependentUpon>FormDetailOrderTread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPIC\FormPPICMenu.resx">
+      <DependentUpon>FormPPICMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report\FormReportGaugeProfileTread.resx">
+      <DependentUpon>FormReportGaugeProfileTread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormReportSpeedScrewTread.resx">
+      <DependentUpon>FormReportSpeedScrewTread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FormReportUsedCoumpoundTread.resx">
+      <DependentUpon>FormReportUsedCoumpoundTread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportGaugeProfileTread.rdlc" />
+    <EmbeddedResource Include="Report\ReportSpeedScrewTread.rdlc" />
+    <EmbeddedResource Include="Report\ReportUsedCoumpoundTread.rdlc" />
+    <EmbeddedResource Include="Spec System\FormDetailSpecTread.resx">
+      <DependentUpon>FormDetailSpecTread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spec System\FormSpecSystemMenu.resx">
+      <DependentUpon>FormSpecSystemMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spec System\FormSpecTread.resx">
+      <DependentUpon>FormSpecTread.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet_LotAssuranceTreadBack.xsc">
+      <DependentUpon>DataSet_LotAssuranceTreadBack.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_LotAssuranceTreadBack.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_LotAssuranceTreadBack.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_LotAssuranceTreadBack.xss">
+      <DependentUpon>DataSet_LotAssuranceTreadBack.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_LotAssuranceTreadFront.xsc">
+      <DependentUpon>DataSet_LotAssuranceTreadFront.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_LotAssuranceTreadFront.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_LotAssuranceTreadFront.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_LotAssuranceTreadFront.xss">
+      <DependentUpon>DataSet_LotAssuranceTreadFront.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExtruderManagementSystem_Entity\ExtruderManagementSystem_Entity.csproj">
+      <Project>{b2133962-aba1-44e4-863e-66ee830f09dd}</Project>
+      <Name>ExtruderManagementSystem_Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtruderManagementSystem_Facade\ExtruderManagementSystem_Facade.csproj">
+      <Project>{d91da7d9-32ac-4c0e-b46e-9e9bf3fcca28}</Project>
+      <Name>ExtruderManagementSystem_Facade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <None Include="Resources\Ungu.png" />
+    <None Include="Resources\Orange.png" />
+    <None Include="Resources\green.png" />
+    <None Include="Resources\purple.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+E:\PROJECT KM\ExtruderManagementSystem\ExtruderManagementSystem_Entity\bin\Debug\ExtruderManagementSystem_Entity.dll
+E:\PROJECT KM\ExtruderManagementSystem\ExtruderManagementSystem_Entity\bin\Debug\ExtruderManagementSystem_Entity.pdb
+E:\PROJECT KM\ExtruderManagementSystem\ExtruderManagementSystem_Entity\obj\Debug\ExtruderManagementSystem_Entity.dll
+E:\PROJECT KM\ExtruderManagementSystem\ExtruderManagementSystem_Entity\obj\Debug\ExtruderManagementSystem_Entity.pdb
+E:\PROJECT KM\ExtruderManagementSystem\ExtruderManagementSystem_Entity\obj\Debug\ExtruderManagementSystem_Entity.csprojResolveAssemblyReference.cache
+D:\PROJECT VISUAL STUDIO\ExtruderManagementSystem\ExtruderManagementSystem_Entity\bin\Debug\ExtruderManagementSystem_Entity.dll
+D:\PROJECT VISUAL STUDIO\ExtruderManagementSystem\ExtruderManagementSystem_Entity\bin\Debug\ExtruderManagementSystem_Entity.pdb
+D:\PROJECT VISUAL STUDIO\ExtruderManagementSystem\ExtruderManagementSystem_Entity\obj\Debug\ExtruderManagementSystem_Entity.dll
+D:\PROJECT VISUAL STUDIO\ExtruderManagementSystem\ExtruderManagementSystem_Entity\obj\Debug\ExtruderManagementSystem_Entity.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtruderManagementSystem_UI", "ExtruderManagementSystem_UI\ExtruderManagementSystem_UI.csproj", "{EE07F524-C446-458F-B177-8F4F5AB557A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtruderManagementSystem_Entity", "ExtruderManagementSystem_Entity\ExtruderManagementSystem_Entity.csproj", "{B2133962-ABA1-44E4-863E-66EE830F09DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtruderManagementSystem_Facade", "ExtruderManagementSystem_Facade\ExtruderManagementSystem_Facade.csproj", "{D91DA7D9-32AC-4C0E-B46E-9E9BF3FCCA28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE07F524-C446-458F-B177-8F4F5AB557A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE07F524-C446-458F-B177-8F4F5AB557A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE07F524-C446-458F-B177-8F4F5AB557A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE07F524-C446-458F-B177-8F4F5AB557A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2133962-ABA1-44E4-863E-66EE830F09DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2133962-ABA1-44E4-863E-66EE830F09DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2133962-ABA1-44E4-863E-66EE830F09DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2133962-ABA1-44E4-863E-66EE830F09DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91DA7D9-32AC-4C0E-B46E-9E9BF3FCCA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91DA7D9-32AC-4C0E-B46E-9E9BF3FCCA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91DA7D9-32AC-4C0E-B46E-9E9BF3FCCA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91DA7D9-32AC-4C0E-B46E-9E9BF3FCCA28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
